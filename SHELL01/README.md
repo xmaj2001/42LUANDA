@@ -6,7 +6,6 @@
 ```bash
 id -G --name $FT_USER | tr " " "," | tr -d "\n"
 ```
-### Explicação:
 Este comando utiliza o comando id para obter os grupos do usuário $FT_USER, depois utiliza tr para substituir espaços por vírgulas e tr -d "\n" para remover a quebra de linha. O resultado são os grupos do usuário separados por vírgulas.
 
 ## Exercício 02
@@ -14,7 +13,6 @@ Este comando utiliza o comando id para obter os grupos do usuário $FT_USER, dep
 ```bash
 find . -type f -name "*.sh" -exec basename {} .sh \;
 ```
-Explicação:
 Aqui, find é utilizado para buscar arquivos (-type f) com extensão .sh na árvore de diretórios. O comando basename é utilizado para extrair os nomes dos arquivos sem a extensão .sh.
 
 ## Exercício 03
@@ -22,7 +20,6 @@ Aqui, find é utilizado para buscar arquivos (-type f) com extensão .sh na árv
 ```bash
 find . -type f -o -type d | wc -l
 ```
-Explicação:
 Esse comando utiliza find para listar todos os arquivos e diretórios, e wc -l conta o número total de linhas, que corresponde ao número total de arquivos e diretórios.
 
 ## Exercício 04
@@ -30,15 +27,10 @@ Esse comando utiliza find para listar todos os arquivos e diretórios, e wc -l c
 ```bash
 ifconfig | grep "ether" | cut -d " " -f10
 ```
-Explicação:
 O comando ifconfig exibe informações sobre interfaces de rede, e grep "ether" filtra apenas as linhas que contêm o endereço MAC. cut -d " " -f10 divide a linha em palavras e extrai o décimo elemento.
 
 Exercício 05
 Código:
-
-Ainda não disponível
-
-Explicação:
 Este exercício ainda não está disponível.
 
 ## Exercício 06
@@ -46,7 +38,6 @@ Este exercício ainda não está disponível.
 ```bash
 ls -l | awk 'NR % 2 == 1'
 ```
-Explicação:
 O comando ls -l lista os arquivos em formato longo, e awk 'NR % 2 == 1' filtra as linhas ímpares, exibindo assim os arquivos de forma intercalada.
 
 ## Exercício 07
@@ -64,7 +55,6 @@ cat /etc/passwd \
 | sed 's+, $+.+g' \
 | tr -d '\n'
 ```
-Explicação:
 Este comando extrai nomes de usuário do arquivo /etc/passwd, remove linhas comentadas, filtra linhas pares, ordena de forma reversa, e exibe apenas as linhas entre FT_LINE1 e FT_LINE2.
 
 ## Exercício 08
@@ -76,6 +66,5 @@ echo $FT_NBR1 + $FT_NBR2 \
   | bc \
   | tr '0123456789ABC' 'gtaio luSnemf'
 ```
-Explicação:
 Este comando realiza operações matemáticas complexas convertendo números e caracteres com base em substituições específicas.
 
