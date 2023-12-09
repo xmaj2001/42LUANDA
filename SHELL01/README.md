@@ -1,6 +1,6 @@
 # SHELL01 - Descrição dos Exercícios
 
-## Exercício 012
+## Exercício 01
 
 ### Código:
 ```bash
