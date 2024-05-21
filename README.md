@@ -1,5 +1,4 @@
 # 42 LUANDA
-![42 Logo](/Logo42Luanda.png)
 
 A 42 é reconhecida como um dos melhores centros de excelência em programação no mundo. Distingue-se por sua abordagem inovadora, focada no aprendizado através de trabalho em equipe e projetos práticos, utilizando o conceito de gamificação. Ao invés de uma formação tradicional baseada em teoria, na 42 os participantes ganham pontos e avançam de nível, criando uma dinâmica semelhante a um jogo.
 
