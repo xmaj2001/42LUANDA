@@ -1,0 +1,6 @@
+[submodule "so_long"]
+	path = so_long
+	url = git@github.com:xmaj2001/so_long.git
+[submodule "get_next_line"]
+	path = get_next_line
+	url = git@github.com:xmaj2001/get_next_line.git
